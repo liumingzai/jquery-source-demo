@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>good evening everyone</h1>
+    <div class="p-con">
+        <p>111</p>
+        <p>222</p>
+        <p>333</p>
+        <p class="p4">444</p>
+    </div>
+    
+</body>
+<script src="./jquery2.js"></script>
+<script>
+
+    // $("p").addClass("blue");
+
+    // $(".p4").setText("test");
+
+    var divcon = $("div").find("p").eq(2);
+    console.log(divcon);
+    divcon.remove();
+    // divcon.remove();
+    // console.log($("div").find("p").eq(2).remove())
+</script>
+</html>
